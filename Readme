@@ -26,7 +26,13 @@ git pull                          // Fetch and merge changes
 git fetch				                     // Fetch changes without merging		
 git reset --hard HEAD	            // Discard changes		
 git revert <commit-hash>          // Revert changes in a commit		
- 
+
+// All Commands to Upload Your Project to GIT
+git init
+git add . 
+git commit -m "Initial commit" 
+git remote add origin <repository-url> 
+git push -u origin <branch-name>
 
  
 
